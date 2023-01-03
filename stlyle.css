@@ -1,16 +1,6 @@
-*{
-    margin: 0px;
-}
-h1{
-    color:#ff0000;
-    background-color: lightblue;
-    padding: 0.5em;
+body{
+    height: 100vh;
     display: flex;
     justify-content: center;
-}
-.nomeDoCarro h1{
-    color: green;
-}
-.fontes{
-    font-size: 2em;
+    align-items: center;
 }
