@@ -5,6 +5,7 @@ var Supra_carro = 2022;
 var sistema_eletrrico = true;
 var velocidade = 0;
 var ligado = false;
+var parado = false;
 
 const marca = "Toyota";
 
@@ -19,13 +20,20 @@ function freiar(){
     }
 }
 function parar(){
-    if(velocidad = 0){
-        
+    if(velocidad == 0){
+        parado = true;
+    }else{
+        parado = false;
     }
 }
 function ligar(){
     ligado = true
+    if(ligado == false){
+        ligar = true;
+    }
 }
 function desligar(){
-    ligado = false;
+    if(ligado == true){
+        ligado = false;
+    }
 }
